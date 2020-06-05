@@ -14,7 +14,7 @@ while (!~["musical", "tropical", "adventurous"].indexOf(lowerCaseVacationType)) 
     lowerCaseVacationType = vacationType.toLowerCase();
 }
 
-groupSize = prompt("Interesting! Wow, that's a cool choice! \nHow many people will be traveling...including yoursel?");
+groupSize = prompt("Interesting! Wow, that's a cool choice! \nHow many people will be traveling...including yourself?");
 
 while ((groupSize != parseInt(groupSize)) || (groupSize <= 0)) { 
     groupSize = prompt("Thanks for that, but I need the NUMBER of people. like 1 or 2 or 15");
