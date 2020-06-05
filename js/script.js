@@ -31,7 +31,7 @@ if (lowerCaseVacationType === "musical") {
 if (groupSize <= 2) {
     via = "First Class";
 } else if (groupSize > 2 && groupSize <= 5) {
-    via = "Helipcopter";
+    via = "Helicopter";
 } else if (groupSize > 5) {
     via = "Charter Flight";
 }
